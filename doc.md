@@ -12,4 +12,7 @@ git rm --cached <file>
 git commit -m "my message"
 
 git log [--oneline]
+
+git reset [--soft|hard|mixed] <id>
+git reflog
 ```
