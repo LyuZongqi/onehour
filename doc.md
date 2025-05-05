@@ -13,6 +13,19 @@ git commit -m "my message"
 
 git log [--oneline]
 
-git reset [--soft|hard|mixed] <id>
-git reflog
+git reset [--soft|hard|mixed] <id> 
+git reflog # 变更记录
+git ls-files # 查看文件
+
+git diff # 默认工作区与暂存区差异
+# HEAD是版本库中的最新提交
+git diff HEAD # 工作区vs版本库
+git diff --cached #暂存区vs版本库
+git diff <id1> <id2>
+git diff HEAD~ HEAD # git diff HEAD^ HEAD 版本库上一版本vs当前版本
+git diff HEAD~3 HEAD [filename]
+
+git ls-files #查看所有已跟踪
+git rm <file> # 从工作区和暂存区删除,不修改版本库（需commit）
+git rm -cached <file> #删暂存区
 ```
