@@ -8,4 +8,8 @@ git status
 
 git add <file>
 git rm --cached <file>
+
+git commit -m "my message"
+
+git log [--oneline]
 ```
