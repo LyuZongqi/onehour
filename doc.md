@@ -27,7 +27,20 @@ git diff HEAD~3 HEAD [filename]
 
 git ls-files #查看所有已跟踪
 git rm <file> # 从工作区和暂存区删除,不修改版本库（需commit）
-git rm -cached <file> #删暂存区
+git rm --cached <file> #删暂存区
+
+
+git clone <repo>
+git pull
+git push
+
+git remote add origin git@github.com:LyuZongqi/onehour.git
+git remote add gitee git@xxxxx
+git push -u origin main
+git remote -v
+git pull <远程仓库名> <远程分支名>:<本地分支名>
+git push # git push gitee main
+
 
 
 ```
